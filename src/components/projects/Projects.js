@@ -34,18 +34,20 @@ const Projects = () => {
             image: portfolioImage,
         },
         {
-            title: "CP Calendar",
-            desc: "My personal portfolio website.",
-            liveUrl: "https://jayant-gupta.vercel.app/",
-            githubUrl: "https://github.com/Jayant-001/CP-Calendar",
-            image: projectTwo,
+            title: "Copy Assignment",
+            desc: "Online cloud file sharing system build using React.js, Node.js, Express.js, and MongoDB.",
+            liveUrl:
+                "https://blog.hubspot.com/hs-fs/hubfs/404-error-page.jpg?width=893&height=600&name=404-error-page.jpg",
+            githubUrl: "https://github.com/Jayant-001/Copy-Assignment",
+            image: projectThree,
         },
         {
-            title: "My Portfolio",
+            title: "CP Calendar",
             desc: "My personal portfolio website.",
-            liveUrl: "https://jayant-gupta.vercel.app/",
-            githubUrl: "https://github.com/Jayant-001/Portfolio",
-            image: projectThree,
+            liveUrl:
+                "https://blog.hubspot.com/hs-fs/hubfs/404-error-page.jpg?width=893&height=600&name=404-error-page.jpg",
+            githubUrl: "https://github.com/Jayant-001/CP-Calendar",
+            image: projectTwo,
         },
     ];
 
