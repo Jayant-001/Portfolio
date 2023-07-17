@@ -1,26 +1,53 @@
 import React from "react";
 import Title from "../layouts/Title";
-import { projectOne, projectTwo, projectThree, ekartProjectImage, filmyVerseImage } from "../../assets/index";
+import {
+    projectOne,
+    projectTwo,
+    projectThree,
+    ekartProjectImage,
+    filmyVerseImage,
+    portfolioImage,
+} from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
 
 const Projects = () => {
-
-    const projects = [
+    const projectsData = [
         {
-            title: 'Epic Store',
-            des: '',
-            liveUrl: 'https://epic-cart-stripe.vercel.app/',
-            githubUrl: '',
-            image: ekartProjectImage
+            title: "Epic Store",
+            desc: "E-commerce website build on Next.JS  Features: Payment integration using Stripe, use-shopping-cart hook for products management",
+            liveUrl: "https://epic-cart-stripe.vercel.app/",
+            githubUrl: "https://github.com/Jayant-001/Epic-Cart-Stripe",
+            image: ekartProjectImage,
         },
         {
-            title: 'Filmy verse',
-            des: 'A huge collection of movies and tv series. A website where you can track trending and top rated movies.',
-            liveUrl: 'https://filmy-verse.netlify.app/',
-            githubUrl: '',
-            image: filmyVerseImage
-        }
-    ]
+            title: "Filmy verse",
+            desc: "A huge collection of movies and tv series build on React. A website where you can track trending and top rated movies.",
+            liveUrl: "https://filmy-verse.netlify.app/",
+            githubUrl: "https://github.com/Jayant-001/Movies_verse_frontend",
+            image: filmyVerseImage,
+        },
+        {
+            title: "My Portfolio",
+            desc: "My personal portfolio website build on React.JS",
+            liveUrl: "https://jayant-gupta.vercel.app/",
+            githubUrl: "https://github.com/Jayant-001/Portfolio",
+            image: portfolioImage,
+        },
+        {
+            title: "CP Calendar",
+            desc: "My personal portfolio website.",
+            liveUrl: "https://jayant-gupta.vercel.app/",
+            githubUrl: "https://github.com/Jayant-001/CP-Calendar",
+            image: projectTwo,
+        },
+        {
+            title: "My Portfolio",
+            desc: "My personal portfolio website.",
+            liveUrl: "https://jayant-gupta.vercel.app/",
+            githubUrl: "https://github.com/Jayant-001/Portfolio",
+            image: projectThree,
+        },
+    ];
 
     return (
         <section
@@ -34,7 +61,11 @@ const Projects = () => {
                 />
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
-                <ProjectsCard
+                {projectsData.map((data, id) => {
+                    return <ProjectsCard data={data} />;
+                })}
+
+                {/* <ProjectsCard
                     title="SHOPIFY"
                     des="A E-commerce website where you can buy Cocaine, Ammunition, Heroins, Drugs, ...etc in discounted price and its also good to be seller here. The world is yours `burn it`."
                     src={ekartProjectImage}
@@ -66,7 +97,7 @@ const Projects = () => {
                     des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
                     src={projectTwo}
-                />
+                /> */}
             </div>
         </section>
     );

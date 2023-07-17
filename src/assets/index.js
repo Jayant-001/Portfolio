@@ -11,6 +11,7 @@ import logo2 from './images/logo2.png'
 import man from './images/man.png'
 import ekartProjectImage from './images/projects/ekart_stripe_project.png'
 import filmyVerseImage from './images/projects/filmy_verse_project.png'
+import portfolioImage from './images/projects/portfolio_project.png'
 
 export {
   logo,
@@ -26,4 +27,5 @@ export {
   contactImg,
   ekartProjectImage,
   filmyVerseImage,
+  portfolioImage,
 };
