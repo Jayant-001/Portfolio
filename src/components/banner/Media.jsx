@@ -1,7 +1,11 @@
 import React from "react";
-import { FaGithub, FaTwitter, FaLinkedinIn, FaReact } from "react-icons/fa";
+import { AiFillFile } from "react-icons/ai";
+import { FaGithub, FaLinkedinIn, FaReact } from "react-icons/fa";
 import { MdRebaseEdit } from "react-icons/md";
 import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
+
+import resumePdf from "./Jayant-Gupta-Resume.pdf";
+
 const Media = () => {
     return (
         <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
@@ -32,13 +36,14 @@ const Media = () => {
                         </span>
                     </a>
                     <a
-                        href="https://www.linkedin.com/in/jayant-cse/"
+                        href={resumePdf}
                         rel="noreferrer"
+                        download="Jayant Gupta Resume.pdf"
                         target="_blank"
-                        title="Twitter"
+                        title="My Resume"
                     >
                         <span className="bannerIcon">
-                            <FaTwitter />
+                            <AiFillFile />
                         </span>
                     </a>
                 </div>

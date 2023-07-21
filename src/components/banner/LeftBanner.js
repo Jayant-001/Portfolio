@@ -4,7 +4,7 @@ import Media from "./Media";
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
-        words: ["Competitive Coder.", "Full Stack Developer.", "UI Designer."],
+        words: ["Competitive Coder", "Full Stack Developer", "CSE Scholar"],
         loop: true,
         typeSpeed: 50,
         deleteSpeed: 20,
@@ -16,9 +16,7 @@ const LeftBanner = () => {
                 <h4 className=" text-lg font-normal">WELCOME TO MY WORLD</h4>
                 <h1 className="text-6xl font-bold text-white">
                     Hi, I'm{" "}
-                    <span className="text-designColor capitalize">
-                        Jayant
-                    </span>
+                    <span className="text-designColor capitalize">Jayant</span>
                 </h1>
                 <h2 className="text-4xl font-bold text-white">
                     a <span className="text-[#155b29]">{text}</span>
@@ -29,11 +27,9 @@ const LeftBanner = () => {
                     />
                 </h2>
                 <p className="text-base font-bodyFont leading-6 tracking-wide">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Asperiores quas voluptatibus id. Laborum at laudantium iste
-                    molestias, sunt officia ullam tempore, perspiciatis dolores
-                    architecto porro, asperiores explicabo distinctio magni
-                    odit!
+                    I am a final year student of computer science and engineering.
+                    I am a regular problem solver.
+                    I have practical expericnce on Next.js, React.js, Express.js,...
                 </p>
             </div>
             {/* Media */}
