@@ -43,7 +43,7 @@ const Projects = () => {
         },
         {
             title: "CP Calendar",
-            desc: "My personal portfolio website.",
+            desc: "An android app that shows upcomming coding contest information from different website like Leetcode, Codeforces, Codechef, AtCode, ...etc.",
             liveUrl:
                 "https://blog.hubspot.com/hs-fs/hubfs/404-error-page.jpg?width=893&height=600&name=404-error-page.jpg",
             githubUrl: "https://github.com/Jayant-001/CP-Calendar",
