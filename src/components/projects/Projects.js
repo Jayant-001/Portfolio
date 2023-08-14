@@ -28,7 +28,7 @@ const Projects = () => {
         },
         {
             title: "My Portfolio",
-            desc: "My personal portfolio website build on React.JS",
+            desc: "My personal portfolio website build on React.JS and TailwindCSS",
             liveUrl: "https://jayant-gupta.vercel.app/",
             githubUrl: "https://github.com/Jayant-001/Portfolio",
             image: portfolioImage,
@@ -58,7 +58,7 @@ const Projects = () => {
         >
             <div className="flex justify-center items-center text-center">
                 <Title
-                    title="VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK"
+                    title="THESE ARE SOME PROJECTS THAT I HAVE DEVELOPED SO FAR"
                     des="My Projects"
                 />
             </div>
