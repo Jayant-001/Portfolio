@@ -2,6 +2,8 @@ import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import Media from "./Media";
 
+import resumePdf from "./Jayant_Gupta_Resume.pdf";
+
 const LeftBanner = () => {
     const [text] = useTypewriter({
         words: ["Competitive Coder", "Full Stack Developer", "CSE Scholar"],
@@ -27,10 +29,26 @@ const LeftBanner = () => {
                     />
                 </h2>
                 <p className="text-base font-bodyFont leading-6 tracking-wide">
-                    I am a final year student of computer science and engineering.
-                    I am a regular problem solver.
-                    I have practical expericnce on Next.js, React.js, Express.js,...
+                    Greetings! I'm Jayant Kumar Gupta, a dedicated Computer
+                    Science student. Currently pursuing my Bachelor's. I'm a
+                    proficient web developer, skilled on Next.js, React.js,
+                    MySQL, Node.js and MongoDB. With a track record of excelling
+                    on coding platforms like LeetCode, Codeforces, and Codechef,
+                    I'm a skilled problem solver. My proficiency spans
+                    languages, frameworks, and databases, allowing me to create
+                    comprehensive solutions. Explore my portfolio to witness my
+                    coding journey turning concepts into reality.
                 </p>
+                <a
+                    href={resumePdf}
+                    rel="noreferrer"
+                    download="Jayant Gupta Resume.pdf"
+                    target="_blank"
+                    title="My Resume"
+                    className="cursor-pointer text-red-500 w-fit font-bold"
+                >
+                    My Resume
+                </a>
             </div>
             {/* Media */}
             <Media />

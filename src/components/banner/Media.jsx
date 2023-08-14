@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedinIn, FaReact } from "react-icons/fa";
 import { MdRebaseEdit } from "react-icons/md";
 import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 
-import resumePdf from "./Jayant-Gupta-Resume.pdf";
+import resumePdf from "./Jayant_Gupta_Resume.pdf";
 
 const Media = () => {
     return (
