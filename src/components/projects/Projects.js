@@ -1,12 +1,13 @@
 import React from "react";
 import Title from "../layouts/Title";
 import {
-    projectOne,
     projectTwo,
     projectThree,
     ekartProjectImage,
     filmyVerseImage,
     portfolioImage,
+    pocketCloudProjectImage,
+    epicCartProjectImage,
 } from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
 
@@ -14,6 +15,20 @@ const Projects = () => {
     const projectsData = [
         {
             title: "Epic Store",
+            desc: "An Ecommerce website build on Next.js framework. Features: Create you personalized online store for free with Epic Cart. Zero maintenance and brokerage fee.",
+            liveUrl: "https://epic-cart-2.vercel.app",
+            githubUrl: "https://github.com/Jayant-001/Epic-Cart-2.0",
+            image: epicCartProjectImage,
+        },
+        {
+            title: "Pocket Cloud",
+            desc: "A webapp built to provide users with a seamless and efficient file management on the cloud. By leveraging the power of Next.js, and Google Firebase.",
+            liveUrl: "https://pocket-cloud.vercel.app",
+            githubUrl: "https://github.com/Jayant-001/Cloud-File-Manager",
+            image: pocketCloudProjectImage,
+        },
+        {
+            title: "Epic Cart",
             desc: "E-commerce website build on Next.JS  Features: Payment integration using Stripe, use-shopping-cart hook for products management",
             liveUrl: "https://epic-cart-stripe.vercel.app/",
             githubUrl: "https://github.com/Jayant-001/Epic-Cart-Stripe",
