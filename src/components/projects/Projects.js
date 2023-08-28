@@ -29,7 +29,7 @@ const Projects = () => {
         },
         {
             title: "Epic Cart",
-            desc: "E-commerce website build on Next.JS  Features: Payment integration using Stripe, use-shopping-cart hook for products management",
+            desc: "E-commerce website build on Next.JS  Features: Payment integration using Stripe, use-shopping-cart hook for products management.",
             liveUrl: "https://epic-cart-stripe.vercel.app/",
             githubUrl: "https://github.com/Jayant-001/Epic-Cart-Stripe",
             image: ekartProjectImage,
@@ -79,7 +79,7 @@ const Projects = () => {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
                 {projectsData.map((data, id) => {
-                    return <ProjectsCard data={data} />;
+                    return <ProjectsCard key={id} data={data} />;
                 })}
 
                 {/* <ProjectsCard

@@ -1,27 +1,33 @@
 import React from "react";
-import {motion} from "framer-motion"
+import { motion } from "framer-motion";
 import ResumeCard from "./ResumeCard";
 
 const Experience = () => {
-  return (
-    <motion.div
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1, transition: { duration: 0.5 } }}
-      className="py-12 font-titleFont flex gap-20"
-    >
-      <div>
-        <div className="flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2010 - 2022</p>
-          <h2 className="text-4xl font-bold">Job Experience</h2>
-        </div>
-        <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
-          <ResumeCard
-            title="Sr. Software Engineer"
-            subTitle="Google Out Tech - (2017 - Present)"
-            result="USA"
-            des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
-          />
-          <ResumeCard
+    return (
+        <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1, transition: { duration: 0.5 } }}
+            className="py-12 font-titleFont flex gap-20"
+        >
+            <div>
+                <div className="flex flex-col gap-4">
+                    <p className="text-sm text-designColor tracking-[4px]">
+                        2022 - Present
+                    </p>
+                    <h2 className="text-4xl font-bold">
+                        Internship Experience
+                    </h2>
+                </div>
+                <div className="mt-14 w-full h-[500px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+                    <ResumeCard
+                        title="Software Development Intern"
+                        subTitle="Rudraksha Welfare Foundation - (Aug 2022 - Oct 2022)"
+                        result="Work from home"
+                        des={`• Led the development of 2 Android projects using Java, Android Studio, and Google Firebase technologies. \n
+                        • Led Java to design a promo-code algorithm that can handle 1000+ user requests, decreasing process time by 60%. \n
+                       • Enhanced UI conflicts of 5+ pages on Android Studio and revamped 10+ existing bugs related to Firebase.`}
+                    />
+                    {/* <ResumeCard
             title="Web Developer & Trainer"
             subTitle="Apple Developer Team - (2012 - 2016)"
             result="MALAYSIA"
@@ -32,10 +38,10 @@ const Experience = () => {
             subTitle="Nike - (2020 - 2011)"
             result="Oman"
             des="The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
-          />
-        </div>
-      </div>
-      <div>
+          /> */}
+                </div>
+            </div>
+            {/* <div>
         <div className="flex flex-col gap-4">
           <p className="text-sm text-designColor tracking-[4px]">2001 - 2020</p>
           <h2 className="text-4xl font-bold">Trainer Experience</h2>
@@ -60,9 +66,9 @@ const Experience = () => {
             des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
           />
         </div>
-      </div>
-    </motion.div>
-  );
+      </div> */}
+        </motion.div>
+    );
 };
 
 export default Experience;
