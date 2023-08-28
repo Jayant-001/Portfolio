@@ -94,6 +94,7 @@ const Testimonial = () => {
             <div className="flex justify-center items-center text-center">
                 <Title title="MY JOURNEY" des="Achievements" />
             </div>
+                <p className="text-center text-red-800">*** THis is under development ***</p>
             <div className="max-w-6xl mx-auto">
                 {/* ================ Slider One ================== */}
                 <Slider {...settings}>
@@ -110,10 +111,10 @@ const Testimonial = () => {
                                         Intern - Android Development
                                     </p>
                                     <h3 className="text-2xl font-bold">
-                                        Akash Drivadi
+                                        Knight batch
                                     </h3>
                                     <p className="text-base tracking-wide text-gray-500">
-                                        Senior Software Engineer @ Google
+                                        @ Leetcode
                                     </p>
                                 </div>
                             </div>
@@ -127,7 +128,7 @@ const Testimonial = () => {
                                     <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                                         <div>
                                             <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
-                                                Travel Mobile App Design.
+                                                Knight @ Leetcode
                                             </h3>
                                             <p className="text-base text-gray-400 mt-3">
                                                 via Upwork - Mar 4, 2015 - Aug
@@ -170,10 +171,10 @@ const Testimonial = () => {
                                         Intern - Android Development
                                     </p>
                                     <h3 className="text-2xl font-bold">
-                                        Sir Jaysh
+                                        John Doe
                                     </h3>
                                     <p className="text-base tracking-wide text-gray-500">
-                                        Operation Officer
+                                        Lorem, ipsum.
                                     </p>
                                 </div>
                             </div>
@@ -216,7 +217,7 @@ const Testimonial = () => {
                         </div>
                     </div>
                     {/* ================ Slider Three ================== */}
-
+                    {/* 
                     <div className="w-full">
                         <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
                             <div className="w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-shadowOne flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center">
@@ -274,7 +275,7 @@ const Testimonial = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </Slider>
             </div>
         </section>
