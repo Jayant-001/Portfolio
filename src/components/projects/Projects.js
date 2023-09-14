@@ -8,6 +8,7 @@ import {
     portfolioImage,
     pocketCloudProjectImage,
     epicCartProjectImage,
+    youtubeCloneProject
 } from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
 
@@ -33,6 +34,13 @@ const Projects = () => {
             liveUrl: "https://epic-cart-stripe.vercel.app/",
             githubUrl: "https://github.com/Jayant-001/Epic-Cart-Stripe",
             image: ekartProjectImage,
+        },
+        {
+            title: "Youtube Clone",
+            desc: "An online video streaming platform built on React JS and Material UI. Fetches Youtube videos using Youtube V3 api from Rapid API.",
+            liveUrl: "https://youtube-clone-jayant.vercel.app/",
+            githubUrl: "https://github.com/Jayant-001/Video-Streaming-Web-App",
+            image: youtubeCloneProject,
         },
         {
             title: "Filmy verse",

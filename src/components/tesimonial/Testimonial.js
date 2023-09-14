@@ -94,7 +94,9 @@ const Testimonial = () => {
             <div className="flex justify-center items-center text-center">
                 <Title title="MY JOURNEY" des="Achievements" />
             </div>
-                <p className="text-center text-red-800">*** THis is under development ***</p>
+            <p className="text-center text-red-800">
+                *** THis is under development ***
+            </p>
             <div className="max-w-6xl mx-auto">
                 {/* ================ Slider One ================== */}
                 <Slider {...settings}>
@@ -103,12 +105,12 @@ const Testimonial = () => {
                             <div className="w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-shadowOne flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center">
                                 <img
                                     className="h-72 md:h-32 lgl:h-72 rounded-lg object-cover"
-                                    src={testimonialOne}
+                                    src="https://leetcode.com/static/images/LeetCode_logo_rvs.png"
                                     alt="testimonialOne"
                                 />
                                 <div className="w-full flex flex-col justify-end">
                                     <p className="text-xs uppercase text-designColor tracking-wide mb-2">
-                                        Intern - Android Development
+                                        Competitive Coding
                                     </p>
                                     <h3 className="text-2xl font-bold">
                                         Knight batch
@@ -131,8 +133,8 @@ const Testimonial = () => {
                                                 Knight @ Leetcode
                                             </h3>
                                             <p className="text-base text-gray-400 mt-3">
-                                                via Upwork - Mar 4, 2015 - Aug
-                                                30, 2021 test
+                                                Via Weekly Contest 358 - Aug 13,
+                                                2023
                                             </p>
                                         </div>
                                         <div className="text-yellow-500 flex gap-1">
@@ -144,13 +146,13 @@ const Testimonial = () => {
                                         </div>
                                     </div>
                                     <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                                        Lorem ipsum dolor sit amet, consectetur
-                                        adipisicing elit. A dolorum, eos natus
-                                        ipsum numquam veniam officia
-                                        necessitatibus ratione quos debitis
-                                        exercitationem repudiandae facilis id
-                                        neque nihil accusantium perspiciatis
-                                        repellat? Iste.
+                                        This achievement is a testament to the
+                                        hours I've dedicated to mastering coding
+                                        challenges. This win is not just about
+                                        numbers; it's about determination,
+                                        growth, and embracing challenges. This
+                                        is just a stepping stone as I continue
+                                        climbing the coding ladder.
                                     </p>
                                 </div>
                             </div>

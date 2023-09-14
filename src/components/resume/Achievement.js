@@ -1,3 +1,5 @@
+// This achievement is a testament to the hours I've dedicated to mastering coding challenges. This win is not just about numbers; it's about determination,
+// growth, and embracing challenges. This is just a stepping stone as I continue climbing the coding ladder. 
 import React from "react";
 import { motion } from "framer-motion";
 import ResumeCard from "./ResumeCard";
