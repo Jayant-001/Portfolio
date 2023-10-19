@@ -8,12 +8,20 @@ import {
     portfolioImage,
     pocketCloudProjectImage,
     epicCartProjectImage,
-    youtubeCloneProject
+    youtubeCloneProject,
+    pocketLibraryProject
 } from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
 
 const Projects = () => {
     const projectsData = [
+        {
+            title: "Pocket Library",
+            desc: "A seamless experience of learning based on assignment and self evaluation quizes, progress tracking and a users leaderboard. -->Next.JS, Prisma, MongoDB.",
+            liveUrl: "https://language-learning-app-blue.vercel.app/",
+            githubUrl: "https://github.com/Jayant-001/Language-Learning-App",
+            image: pocketLibraryProject,
+        },
         {
             title: "Epic Store",
             desc: "An Ecommerce website build on Next.js framework. Features: Create you personalized online store for free with Epic Cart. Zero maintenance and brokerage fee.",
