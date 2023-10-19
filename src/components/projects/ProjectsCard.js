@@ -24,6 +24,7 @@ const ProjectsCard = ({ data }) => {
                                     href={data.githubUrl}
                                     rel="noreferrer"
                                     target="_blank"
+                                    title="Github"
                                 >
                                     <BsGithub />
                                 </a>
@@ -33,6 +34,7 @@ const ProjectsCard = ({ data }) => {
                                     href={data.liveUrl}
                                     rel="noreferrer"
                                     target="_blank"
+                                    title="Live"
                                 >
                                     <FaGlobe />
                                 </a>
