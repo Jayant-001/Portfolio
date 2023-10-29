@@ -18,7 +18,7 @@ const Projects = () => {
         {
             title: "Pocket Library",
             desc: "A seamless experience of learning based on assignment and self evaluation quizes, progress tracking and a users leaderboard. -->Next.JS, Prisma, MongoDB.",
-            liveUrl: "https://language-learning-app-blue.vercel.app/",
+            liveUrl: "https://pocket-library.vercel.app",
             githubUrl: "https://github.com/Jayant-001/Language-Learning-App",
             image: pocketLibraryProject,
         },
