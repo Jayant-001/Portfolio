@@ -16,6 +16,7 @@ import pocketCloudProjectImage from "./images/projects/pocket_cloud_project.png"
 import epicCartProjectImage from './images/projects/epic_cart_project.png'
 import youtubeCloneProject from './images/projects/youtube_clone_project.png'
 import pocketLibraryProject from './images/projects/pocket_library_project.png'
+import urlShortenerProject from './images/projects/url_shortener_project.png'
 
 export {
     logo,
@@ -35,5 +36,6 @@ export {
     pocketCloudProjectImage,
     epicCartProjectImage,
     youtubeCloneProject,
-    pocketLibraryProject
+    pocketLibraryProject,
+    urlShortenerProject
 };

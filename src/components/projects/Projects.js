@@ -9,7 +9,8 @@ import {
     pocketCloudProjectImage,
     epicCartProjectImage,
     youtubeCloneProject,
-    pocketLibraryProject
+    pocketLibraryProject,
+    urlShortenerProject,
 } from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
 
@@ -23,18 +24,25 @@ const Projects = () => {
             image: pocketLibraryProject,
         },
         {
-            title: "Epic Store",
-            desc: "An Ecommerce website build on Next.js framework. Features: Create you personalized online store for free with Epic Cart. Zero maintenance and brokerage fee.",
-            liveUrl: "https://epic-cart-2.vercel.app",
-            githubUrl: "https://github.com/Jayant-001/Epic-Cart-2.0",
-            image: epicCartProjectImage,
-        },
-        {
             title: "Pocket Cloud",
             desc: "A webapp built to provide users with a seamless and efficient file management on the cloud. By leveraging the power of Next.js, and Google Firebase.",
             liveUrl: "https://pocket-cloud.vercel.app",
             githubUrl: "https://github.com/Jayant-001/Cloud-File-Manager",
             image: pocketCloudProjectImage,
+        },
+        {
+            title: "URL Shortener",
+            desc: "It makes long links look cleaner and easier to share! Built on Next.js, it provides a fast shorting experience through data caching with the Redis database.",
+            liveUrl: "https://shorturl-01.vercel.app",
+            githubUrl: "https://github.com/Jayant-001/URL-Shortener",
+            image: urlShortenerProject,
+        },
+        {
+            title: "Epic Store",
+            desc: "An Ecommerce website build on Next.js framework. Features: Create you personalized online store for free with Epic Cart. Zero maintenance and brokerage fee.",
+            liveUrl: "https://epic-cart-2.vercel.app",
+            githubUrl: "https://github.com/Jayant-001/Epic-Cart-2.0",
+            image: epicCartProjectImage,
         },
         {
             title: "Epic Cart",
